@@ -1,6 +1,6 @@
 # 9SENS-micro
 
-**Darmowy, wielopersonowy framework analizy biznesowej** — podejmuj lepsze decyzje GO/NO-GO w 3-6 godzin.
+**Darmowy, wielopersonowy framework analizy biznesowej** — podejmuj lepsze decyzje GO/NO-GO dzięki pełnej analizie
 
 ---
 
@@ -47,7 +47,6 @@ Z 9SENS-micro:
 ### Wymagania
 
 - Narzędzie AI (Claude, ChatGPT, Perplexity Pro - zalecane)
-- 3-6 godzin czasu
 - Pomysł biznesowy do walidacji
 
 ### Kroki
@@ -79,8 +78,8 @@ dietetycznych, preferencji i zawartości spiżarni.
 
 **3. Przejdź przez 2 fazy**
 
-- **Faza 1: Badania** (2-4 godziny) — zbierz dane w 5 obszarach
-- **Faza 2: Analiza** (1-2 godziny) — 3 persony analizują dane
+- **Faza 1: Badania** — zbierz dane w 5 obszarach
+- **Faza 2: Analiza** — 3 persony analizują dane
 
 **4. Otrzymaj raport syntezy**
 
@@ -94,7 +93,7 @@ Framework generuje:
 
 ## Jak to działa?
 
-### Faza 1: Badania (2-4 godziny)
+### Faza 1: Badania
 
 Zbierz dane w 5 obszarach używając narzędzi AI (Perplexity, ChatGPT):
 
@@ -113,7 +112,7 @@ Zbierz dane w 5 obszarach używając narzędzi AI (Perplexity, ChatGPT):
 - ≥3 źródła na temat
 - Dane <6 miesięcy
 
-### Faza 2: Analiza (1-2 godziny)
+### Faza 2: Analiza
 
 3 persony analizują dane **sekwencyjnie** (nigdy równolegle):
 
@@ -227,13 +226,6 @@ Framework wymusza bramy jakości, aby zapewnić dobre decyzje:
 - Zalecane: Perplexity Pro ($20/miesiąc) dla badań w czasie rzeczywistym
 
 **ROI**: Jeśli zapobiega JEDNEJ złej decyzji → ROI 10x+
-
-### Jak długo to trwa?
-
-**Całkowity czas**: 3-6 godzin
-
-- Faza Badań: 2-4 godziny
-- Faza Analizy: 1-2 godziny
 
 ### Czy mogę używać innych narzędzi AI?
 

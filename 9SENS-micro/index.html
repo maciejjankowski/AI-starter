@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9SENS-micro | Wielopersonowy Framework Analizy Biznesowej</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+
+        * {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 4rem 0;
+        }
+
+        .scroll-container {
+            overflow-y: auto;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+        }
+
+        .gradient-bg-2 {
+            background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+        }
+
+        .gradient-bg-3 {
+            background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+        }
+
+        .gradient-bg-4 {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+
+        .gradient-bg-5 {
+            background: linear-gradient(135deg, #283c86 0%, #45a247 100%);
+        }
+
+        .animate-slide-up {
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="scroll-container" id="scroll-container">
+
+        <!-- Section 0: Hero -->
+        <section class="section gradient-bg" id="section-0">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h1 class="text-6xl md:text-8xl font-bold text-white mb-6 animate-slide-up">
+                    9SENS-micro
+                </h1>
+                <p class="text-3xl md:text-4xl text-white/90 mb-8 animate-slide-up">
+                    Wieloagentowy Framework Analizy Biznesowej
+                </p>
+                <p class="text-2xl text-white/80 mb-12 animate-slide-up">
+                    3 Persony AI Analizują Twój Pomysł z Każdej Strony
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
+                    <div class="animate-slide-up bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <p class="text-5xl font-bold mb-3">BILL</p>
+                        <p class="text-xl">Bezwzględny Weryfikator</p>
+                        <p class="text-sm text-white/70 mt-2">Wykrywa sprzeczności, weryfikuje fakty</p>
+                    </div>
+                    <div class="animate-slide-up bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <p class="text-5xl font-bold mb-3">NASH</p>
+                        <p class="text-xl">Optymalizator Decyzji</p>
+                        <p class="text-sm text-white/70 mt-2">Wartość oczekiwana, teoria gier</p>
+                    </div>
+                    <div class="animate-slide-up bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <p class="text-5xl font-bold mb-3">STEVE</p>
+                        <p class="text-xl">Doradca Strategiczny</p>
+                        <p class="text-sm text-white/70 mt-2">Pozycjonowanie błękitnego oceanu, timing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1: The Problem -->
+        <section class="section gradient-bg-2" id="section-1">
+            <div class="max-w-6xl mx-auto px-4 text-white">
+                <h2 class="text-5xl font-bold mb-12 text-center">Dlaczego tego potrzebujesz</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+                        <h3 class="text-3xl font-bold mb-4">❌ Pojedyncza Perspektywa = Nie wiesz, że nie wiesz</h3>
+                        <p class="text-xl mb-4">Kiedy analizujesz własny pomysł:</p>
+                        <ul class="text-lg space-y-2 text-white/80">
+                            <li>• Omijasz sprzeczności w danych</li>
+                            <li>• Przeszacowujesz wielkość rynku</li>
+                            <li>• Niedoszacowujesz koszta</li>
+                            <li>• Ignorujesz konkurencję i ryzyka</li>
+                            <li>• Zakładasz, że popyt istnieje</li>
+                        </ul>
+                        <p class="text-2xl font-bold mt-6 text-red-300">Rezultat: Budujesz niewłaściwą rzecz, tracisz $$$</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+                        <h3 class="text-3xl font-bold mb-4">✅ Wieloperspektywiczne = Jasność</h3>
+                        <p class="text-xl mb-4">Z 9SENS-micro:</p>
+                        <ul class="text-lg space-y-2 text-white/80">
+                            <li>• BILL weryfikuje dane i łapie bzdury</li>
+                            <li>• NASH optymalizuje decyzje</li>
+                            <li>• STEVE identyfikuje luki strategiczne</li>
+                            <li>• Persony się nie zgadzają -&gt; sprawdź zagrożenia</li>
+                            <li>• Konsensus ~= wysoka pewność</li>
+                        </ul>
+                        <p class="text-2xl font-bold mt-6 text-green-300">Rezultat: Decyzja GO/NO-GO oparta na danych</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: How It Works -->
+        <section class="section gradient-bg-3" id="section-2">
+            <div class="max-w-6xl mx-auto px-4 text-white">
+                <h2 class="text-5xl font-bold mb-12 text-center">Jak to działa</h2>
+                <div class="space-y-8">
+                    <div class="flex items-start gap-6 bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <div class="text-6xl font-bold">1</div>
+                        <div>
+                            <h3 class="text-3xl font-bold mb-3">Etap Badań</h3>
+                            <p class="text-xl">Zbierz dane w 5 obszarach: Rynek, Konkurencja, Technologia, Użytkownicy, Finanse. Użyj narzędzi AI (Perplexity, ChatGPT) z dostarczonymi promptami.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <div class="text-6xl font-bold">2</div>
+                        <div>
+                            <h3 class="text-3xl font-bold mb-3">Etap Analizy</h3>
+                            <p class="text-xl">BILL weryfikuje dane → NASH oblicza wartości oczekiwane → STEVE dostarcza strategię. Każda persona wnosi unikalną perspektywę.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <div class="text-6xl font-bold">3</div>
+                        <div>
+                            <h3 class="text-3xl font-bold mb-3">Raport Zbiorczy</h3>
+                            <p class="text-xl">Połączone rekomendacje, krytyczne założenia, decyzja GO/NO-GO z poziomem pewności. Konkretne kolejne kroki.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Example Output -->
+        <section class="section gradient-bg-4" id="section-3">
+            <div class="max-w-6xl mx-auto px-4 text-white">
+                <h2 class="text-5xl font-bold mb-12 text-center">Co otrzymujesz</h2>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+                    <h3 class="text-3xl font-bold mb-6">Przykład: Subskrypcyjne pudełko dla właścicieli węży</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-white/10 p-6 rounded-xl">
+                            <h4 class="text-2xl font-bold mb-3">BILL Mówi:</h4>
+                            <p class="text-lg">"Rynek to 75K dostępnych klientów (nie 500K jak założono). Ryzyko rezygnacji 65% według danych konkurencji. Wzorzec: niszowe pudełka upadają po 18 miesiącach. Słabo!"</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-xl">
+                            <h4 class="text-2xl font-bold mb-3">NASH Mówi:</h4>
+                            <p class="text-lg">"LTV/CAC 2.95x - LEDWO akceptowalne. Potrzebne 3x. Sama subskrypcja = próg rentowności. Dodaj sprzedaż materiałów eksploatacyjnych albo upadniesz."</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-xl">
+                            <h4 class="text-2xl font-bold mb-3">STEVE Mówi:</h4>
+                            <p class="text-lg">"Subskrypcja to czerwony ocean. Utoniesz. Błękitny ocean? -&gt; Platforma: pudełko + materiały eksploatacyjne + marketplace. Timing: TERAZ. Rób to!"</p>
+                        </div>
+                    </div>
+                    <div class="bg-green-900/30 p-6 rounded-xl">
+                        <h4 class="text-2xl font-bold mb-3">Ostateczna Rekomendacja: PIVOT</h4>
+                        <p class="text-xl">Nie buduj czystej subskrypcji. Zbuduj platformę: subskrypcja (pozyskiwanie klientów) + materiały eksploatacyjne (zysk) + marketplace (długoterminowa fosa).</p>
+                        <p class="text-lg mt-4 text-white/80">Pewność: 0.82 (WYSOKA)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Comparison -->
+        <section class="section gradient-bg-5" id="section-4">
+            <div class="max-w-6xl mx-auto px-4 text-white">
+                <h2 class="text-5xl font-bold mb-12 text-center">Darmowy vs Pełny Framework</h2>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="border-b-2 border-white/30">
+                                <th class="py-4 text-2xl">Funkcja</th>
+                                <th class="py-4 text-2xl text-center">9SENS-micro (Darmowy)</th>
+                                <th class="py-4 text-2xl text-center">Pełny 9SENS</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-lg">
+                            <tr class="border-b border-white/20">
+                                <td class="py-4">Persony</td>
+                                <td class="py-4 text-center">3 (BILL, NASH, STEVE)</td>
+                                <td class="py-4 text-center font-bold text-green-300">27 person</td>
+                            </tr>
+                            <tr class="border-b border-white/20">
+                                <td class="py-4">Analiza Różnicowa</td>
+                                <td class="py-4 text-center">❌</td>
+                                <td class="py-4 text-center font-bold text-green-300">✅ Bramka 4 person</td>
+                            </tr>
+                            <tr class="border-b border-white/20">
+                                <td class="py-4">Fazy</td>
+                                <td class="py-4 text-center">2 (Badania, Analiza)</td>
+                                <td class="py-4 text-center font-bold text-green-300">6 faz (+ Projektowanie, Budowa, Testy, Refleksja)</td>
+                            </tr>
+                            <tr class="border-b border-white/20">
+                                <td class="py-4">Logowanie Decyzji</td>
+                                <td class="py-4 text-center">Manualne</td>
+                                <td class="py-4 text-center font-bold text-green-300">✅ Zautomatyzowane</td>
+                            </tr>
+                            <tr class="border-b border-white/20">
+                                <td class="py-4">Bramki Jakości</td>
+                                <td class="py-4 text-center">Manualne</td>
+                                <td class="py-4 text-center font-bold text-green-300">✅ 5 zautomatyzowanych warstw</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-bold text-xl">Koszt</td>
+                                <td class="py-4 text-center font-bold text-2xl text-green-300">DARMOWY</td>
+                                <td class="py-4 text-center font-bold text-2xl text-blue-400" style="text-decoration: underline;"><a href="https://tidycal.com/maciejjankowski/9sens-demo">Umów się na demo</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="mt-12 bg-white/5 p-8 rounded-xl">
+                        <h3 class="text-3xl font-bold mb-6 text-center">Co zapewniają funkcje Pełnego 9SENS</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">27 Person</p>
+                                <p class="text-white/80">Wyłapuj martwe punkty z każdej strony: analiza konkurencji, przełomowe myślenie, walidacja etyczna, egzekwowanie jakości</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Bramka Adwersarzy</p>
+                                <p class="text-white/80">4 persony atakują Twój pomysł, aby znaleźć krytyczne luki przed rozpoczęciem wdrożenia.</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Fazy Projektuj → Buduj → Testuj</p>
+                                <p class="text-white/80">Realizacja od początku do końca z generowaniem kodu TDD, walidacją architektury, automatycznym testowaniem. Nie tylko analiza, ale pełna implementacja</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Automatyczne Logowanie Decyzji</p>
+                                <p class="text-white/80">Kompletny ślad każdej decyzji ze znacznikami czasu, uzasadnieniem, poziomami pewności. Zobacz dokładnie, dlaczego podjęto każdą decyzję</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Bramki Jakości</p>
+                                <p class="text-white/80">Logika biznesowa, jakość kodu (Pytest), założenia, stos technologiczny, analiza różnicowa - wszystko uruchamiane automatycznie</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Ultrawydajny Deep Research (DRAF)</p>
+                                <p class="text-white/80">90% optymalizacja tokenów dla badań. Systematyczna walidacja popytu, trafności, pozyskiwania, finansowania z klasyfikacją poziomów</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-green-300 mb-2">Kompleksowy Workbook</p>
+                                <p class="text-white/80">Pogłębiona ocena pomysłu, założyciela, zespołu i wyróżników. Strukturyzowane pytania prowadzą przez krytyczne aspekty projektu</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pełne Szczegółowe Porównanie -->
+                    <div class="mt-16 space-y-12">
+                        <h3 class="text-4xl font-bold text-center mb-8">Szczegółowe Porównanie</h3>
+
+                        <!-- 1. Personas -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">1. Persony</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">9SENS-micro (3 Persony)</h5>
+                                    <div class="space-y-4 text-lg">
+                                        <div>
+                                            <p class="font-bold">BILL (Bezwzględny Weryfikator)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Weryfikuje dane rynkowe</li>
+                                                <li>• Wykrywa sprzeczności</li>
+                                                <li>• Identyfikuje wzorce</li>
+                                                <li>• Tylko fakty, zero bzdur</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">NASH (Optymalizator Decyzji)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Testuje ekonomię jednostkową</li>
+                                                <li>• Waliduje cenę</li>
+                                                <li>• Oblicza zwrot z inwestycji</li>
+                                                <li>• Znajduje dodatkowe możliwości monetyzacji</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">STEVE (Doradca Strategiczny)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Ocenia pozycję rynkową</li>
+                                                <li>• Identyfikuje błękitny ocean</li>
+                                                <li>• Ocenia timing i fosę konkurencyjną (moat)</li>
+                                                <li>• Wytycza kierunek strategiczny</li>
+                                            </ul>
+                                        </div>
+                                        <p class="text-yellow-300 mt-4 font-bold">Tylko 3 perspektywy. Brak kontrargumentów, radykalnego myślenia, analizy etycznej.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS (23 Persony)</h5>
+                                    <div class="space-y-4 text-lg">
+                                        <p class="font-bold">Wszystko z 9SENS-micro PLUS:</p>
+                                        <div>
+                                            <p class="font-bold">SILAS (Analityk Wpływów)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Wykrywa hurra-optymizm i problemy systemowe</li>
+                                                <li>• Dekonstruuje narracje sukcesu</li>
+                                                <li>• Identyfikuje dynamiki decyzyjne</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">LARRY (Przekraczanie Granic)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Przełomy poprzez absurd</li>
+                                                <li>• Myślenie 0% i 1000%. 2x-10x-100x</li>
+                                                <li>• Łamie wszelkie tabu i ograniczenia</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">DAVID (Prometeusz)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Demokratyzuje wpływ poprzez narzędzia</li>
+                                                <li>• Wyzwolenie wiedzy</li>
+                                                <li>• Filozofia open-source</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">ONE (Nieskończona Empatia)</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Identyfikuje pułapki etyczne</li>
+                                                <li>• Wzmacnia odpowiedzialność społeczną</li>
+                                                <li>• Promuje zrównoważony rozwój</li>
+                                            </ul>
+                                        </div>
+                                        <p class="text-green-300 mt-4 font-bold">Wartość: 23 perspektywy wyłapują martwe punkty. Różnorodność myślenia = lepsze decyzje. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Adversarial Validation Gate -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">2. Bramka Analizy różnicowej</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-red-300">9SENS-micro</h5>
+                                    <p class="text-lg mb-4">❌ Nie zawiera</p>
+                                    <p class="text-white/80">Otrzymujesz konsensus person, ale bez analizy różnicowej.</p>
+                                    <p class="text-yellow-300 mt-4 font-bold">Ryzyko: Persony mogą wszystkie mylić się w tym samym kierunku (myślenie grupowe).</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS</h5>
+                                    <p class="text-lg mb-4">✅ Bramka analizy różnicowej - 4 Ekspertów</p>
+                                    <p class="text-white/80 mb-4">Po walidacji rynkowej (P0), czterej adwersarze atakują Twój pomysł:</p>
+                                    <div class="space-y-3 text-lg">
+                                        <div>
+                                            <p class="font-bold">DARO (Praktyczny Biznesmen)</p>
+                                            <p class="text-white/80">Atakuje rentowność biznesu. "Co jeśli CAC się podwoi? Co jeśli strategia nie wypali? Pozew?" Wymusza planowanie awaryjne.</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">BOŻENKA (Bezwzględna Audytorka)</p>
+                                            <p class="text-white/80">Wymaga dowodów dla każdego twierdzenia. "Wszystko super, ale: Źródła? Dane? Kwity?". </p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">ASHY-SLASHY (Alergia na bzdury)</p>
+                                            <p class="text-white/80">Przecina złożoność. "Umiesz to wyjaśnić 10-latkowi? Nie? To wróć jak będziesz umieć"</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">EMKA (Empatia)</p>
+                                            <p class="text-white/80">Waliduje intensywność problemu i gotowość do zmiany. "Czy to ból ostry czy przewlekły?" Bada rzeczywistą potrzebę użytkownika i skłonność do zmiany.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Phases -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">3. Fazy</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-yellow-300">9SENS-micro (2 Fazy)</h5>
+                                    <div class="space-y-4 text-lg">
+                                        <div>
+                                            <p class="font-bold">P1: Badania</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• 5 obszarów (rynek, konkurencja, technologia, użytkownik, finanse)</li>
+                                                <li>• Manualne prompty badawcze</li>
+                                                <li>• BILL syntetyzuje</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">P2: Analiza</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• BILL → NASH → STEVE (sekwencyjnie)</li>
+                                                <li>• Raport zbiorczy</li>
+                                                <li>• Rekomendacja GO/NO-GO</li>
+                                            </ul>
+                                        </div>
+                                        <p class="text-red-300 mt-4 font-bold">I JUŻ... Projektujesz, wdrażasz i testujesz samodzielnie.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS (6 Faz)</h5>
+                                    <div class="space-y-4 text-lg">
+                                        <p class="font-bold">Wszystko z 9SENS-micro, oraz:</p>
+                                        <div>
+                                            <p class="font-bold">P0: Walidacja Rynkowa</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Metodologia DRAF (Demand, Relevance, Acquisition, Funding)</li>
+                                                <li>• y-FALE - analiza przyczyn porażek podobnych firm</li>
+                                                <li>• Klasyfikacja poziomów (T1-T4)</li>
+                                                <li>• Wynik (0-10)</li>
+                                                <li>• Bramka adwersaryjna (różnicowa)</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">P2: Projektowanie i Architektura</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Projektowanie systemu</li>
+                                                <li>• Moat Builder - strategia budowy fosy konkurencyjnej</li>
+                                                <li>• Walidacja stosu technologicznego</li>
+                                                <li>• Wzorce architektury, kontrakty API, schemat bazy danych</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">P3: Implementacja</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Generowanie kodu z TDD</li>
+                                                <li>• Kontrakty API i najlepsze praktyki</li>
+                                                <li>• Logowanie decyzji w czasie rzeczywistym</li>
+                                                <li>• Bramki jakości (Pyright, Pytest)</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">P4: Testowanie i Walidacja</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Automatyczne generowanie testów</li>
+                                                <li>• Experiment Designer - projektowanie eksperymentów walidacyjnych</li>
+                                                <li>• Eksperymenty do walidacji założeń biznesowych</li>
+                                                <li>• Analiza pokrycia, testy wydajności</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">P5: Refleksja i Uczenie się</p>
+                                            <ul class="text-white/80 ml-4">
+                                                <li>• Analiza wzorców i decyzji</li>
+                                                <li>• Zapisywanie wyciągniętych lekcji</li>
+                                                <li>• Automatyczne doskonalenie na podstawie korekt użytkownika</li>
+                                            </ul>
+                                        </div>
+                                        <p class="text-green-300 mt-4 font-bold">Wartość: Realizacja end-to-end, nie tylko analiza.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. Decision Logging -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">4. Logowanie Decyzji</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-red-300">9SENS-micro</h5>
+                                    <p class="text-lg mb-4">❌ Brak (sam śledzisz decyzje, wskaźniki i przesłanki)</p>
+                                    <p class="text-yellow-300 font-bold">Ograniczenie: Łatwo zapomnieć dlaczego podjąłeś decyzję. Brak ścieżki audytu.</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS</h5>
+                                    <p class="text-lg mb-4">✅ Automatyczne w czytelny sposób</p>
+                                    <p class="text-white/80 mb-4">Każda decyzja logowana automatycznie:</p>
+                                    <ul class="text-white/80 ml-4 space-y-2">
+                                        <li>• Znacznik czasu</li>
+                                        <li>• Tekst decyzji</li>
+                                        <li>• Uzasadnienie</li>
+                                        <li>• Poziom pewności</li>
+                                        <li>• Kontekst</li>
+                                        <li>• Rozważane alternatywy</li>
+                                    </ul>
+                                    <p class="text-lg mt-4"><span class="font-bold">Wyjście:</span> decisions.jsonl (do samouczenia się) + decisions.md (dla człowieka, z diagramami)</p>
+                                    <p class="text-green-300 mt-4 font-bold">Wartość: Kompletna ścieżka audytu. Wiesz dokładnie dlaczego podjąłeś każdą decyzję.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5. Quality Gates -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">5. Bramki Jakości</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-yellow-300">9SENS-micro</h5>
+                                    <p class="text-lg mb-4">Manualne punktowanie:</p>
+                                    <ul class="text-white/80 ml-4 space-y-2">
+                                        <li>• Pewność badań ≥0.75</li>
+                                        <li>• ≥3 źródła na temat</li>
+                                        <li>• Dane <6 miesięcy</li>
+                                        <li>• Konsensus person</li>
+                                    </ul>
+                                    <p class="text-yellow-300 mt-4 font-bold">Ograniczenie: Musisz walidować manualnie.</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS</h5>
+                                    <p class="text-lg mb-4">5 zautomatyzowanych warstw walidacji:</p>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <p class="font-bold">1. Logika Biznesowa (analiza formalna)</p>
+                                            <p class="text-white/80">Budżet ≤ $10000, ROI ≥ 3x, popyt zwalidowany</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">2. Jakość Kodu (Pytest/Pyright)</p>
+                                            <p class="text-white/80">Testy przechodzą, brak błędów typów, pokrycie ≥80%</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">3. Założenia</p>
+                                            <p class="text-white/80">Krytyczne założenia ≥0.75 pewności, przetestowane założenia wysokiego ryzyka</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">4. Stos Technologiczny</p>
+                                            <p class="text-white/80">Porównane opcji w/g potrzeb, rozważone alternatywy, udokumentowane uzasadnienie</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold">5. Adwersarze</p>
+                                            <p class="text-white/80">2/3 adwersarzy aprobuje, wyłapuje czerwone flagi, przygotowane plany awaryjne</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-green-300 mt-4 font-bold">Wartość: Wbudowana w proces. Nie można przeskoczyć walidacji.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6. Integration -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">6. Integracja</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-red-300">9SENS-micro</h5>
+                                    <p class="text-lg mb-4">❌ Brak. Samodzielne pliki markdown (czytelne dla człowieka).</p>
+                                    <p class="text-yellow-300 font-bold">Ograniczenie: Manualne kopiuj/wklej. Brak automatyzacji.</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Pełny 9SENS</h5>
+                                    <p class="text-lg mb-4">✅ Zintegrowany z:</p>
+                                    <ul class="text-white/80 ml-4 space-y-2">
+                                        <li>• <span class="font-bold">Język analizy formalnej</span> - Walidacja logiki (reguły biznesowe)</li>
+                                        <li>• <span class="font-bold">Pytest</span> - Egzekwowanie jakości kodu</li>
+                                        <li>• <span class="font-bold">Pyright</span> - Sprawdzanie typów</li>
+                                        <li>• <span class="font-bold">Git</span> - Automatyczne commity z semantycznymi wiadomościami</li>
+                                        <li>• <span class="font-bold">Zewnętrzne API</span> - Perplexity, Claude, GPT-4</li>
+                                        <li>• <span class="font-bold">Dodatkowe narzędzia</span> - Logowanie decyzji, bramka analizy różnicowej, projektowanie eksperymentów</li>
+                                    </ul>
+                                    <p class="text-green-300 mt-4 font-bold">Wartość: Zintegrowany workflow. Dodatkowe narzędzia wspierające proces decyzyjny.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- When to Upgrade -->
+                        <div class="bg-white/10 p-8 rounded-xl">
+                            <h4 class="text-3xl font-bold mb-6">Kiedy uaktualnić?</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Użyj 9SENS-micro jeśli:</h5>
+                                    <ul class="text-lg text-white/80 space-y-2">
+                                        <li>✅ Testujesz małe pomysły (<10000 PLN inwestycji)</li>
+                                        <li>✅ Uczysz się frameworka</li>
+                                        <li>✅ Walidacja popytu przed zobowiązaniem</li>
+                                        <li>✅ Jednorazowa analiza</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h5 class="text-2xl font-bold mb-4 text-green-300">Użyj Pełnego 9SENS jeśli:</h5>
+                                    <ul class="text-lg text-white/80 space-y-2">
+                                        <li>✅ Budujesz poważny produkt (>10000 PLN inwestycji)</li>
+                                        <li>✅ Potrzebujesz analizy różnicowej (siatka bezpieczeństwa)</li>
+                                        <li>✅ Chcesz realizacji end-to-end (projektowanie → budowa → testy)</li>
+                                        <li>✅ Wiele projektów (ROI frameworka się kumuluje)</li>
+                                        <li>✅ Współpraca zespołowa (wspólny język, ścieżka audytu)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Get Started -->
+        <section class="section gradient-bg" id="section-5">
+            <div class="max-w-5xl mx-auto px-4 text-center text-white">
+                <h2 class="text-6xl font-bold mb-8">Gotowy do walidacji Twojego pomysłu?</h2>
+                <p class="text-3xl mb-12">Pobierz 9SENS-micro i zacznij analizować w 5 minut</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <h3 class="text-3xl font-bold mb-4">1. Pobierz</h3>
+                        <p class="text-xl">Sklonuj repozytorium lub pobierz ZIP</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <h3 class="text-3xl font-bold mb-4">2. Załaduj Framework</h3>
+                        <p class="text-xl">Prompt (Claude Code, Codex, Copilot): <span style="font-family: monospace;" class="text-green-300">Wczytaj instrukcje z pliku `CLAUDE.md` i używaj ich w dalszej analizie</span></p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover-scale">
+                        <h3 class="text-3xl font-bold mb-4">3. Analizuj</h3>
+                        <p class="text-xl">Opisz swój pomysł biznesowy w kilku zdaniach lub podaj lokalizację workbooka</p>
+                    </div>
+                </div>
+
+                <div class="mb-12">
+                    <a href="https://github.com/maciejjankowski/AI-starter" class="bg-white text-blue-900 font-bold text-2xl py-6 px-12 rounded-full hover-scale inline-block shadow-2xl mr-4">
+                        Pobierz z GitHub →
+                    </a>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+                    <h3 class="text-3xl font-bold mb-4">Potrzebujesz więcej możliwości?</h3>
+                    <a class="text-xl mb-6 underline hover:text-green-300" href="https://tidycal.com/maciejjankowski/9sens-demo">Umów się na demo kompletnego systemu 9SENS</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

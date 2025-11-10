@@ -328,3 +328,37 @@ Skontaktuj się w sprawie demo kompletnego systemu 9SENS z:
 **Czas rozpocząć podejmowanie lepszych decyzji.**
 
 🚀 **Powodzenia!**
+
+
+#### Przydatne linki:
+
+
+* [Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included! | Search code, repositories, users, issues, pull requests... | Navigation Menu | thinkingjimmy/Learning-Prompt: Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!](https://github.com/thinkingjimmy/Learning-Prompt)
+
+
+* [This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc | Search code, repositories, users, issues, pull requests... | Navigation Menu | promptslab/Awesome-Prompt-Engineering: This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc](https://github.com/promptslab/Awesome-Prompt-Engineering)
+
+
+* [Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community | Search code, repositories, users, issues, pull requests... | Navigation Menu | trigaten/Learn_Prompting: Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community](https://github.com/trigaten/Learn_Prompting)
+
+
+* [Curated tutorials and resources for Large Language Models, AI Painting, and more. | Search code, repositories, users, issues, pull requests... | Navigation Menu | luban-agi/Awesome-AIGC-Tutorials: Curated tutorials and resources for Large Language Models, AI Painting, and more.](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+
+
+* [Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research | Search code, repositories, users, issues, pull requests... | Navigation Menu | promptslab/Promptify: Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research](https://github.com/promptslab/Promptify)
+
+
+* [ChatGPT Jailbreaks, GPT Assistants Prompt Leaks, GPTs Prompt Injection, LLM Prompt Security, Super Prompts, Prompt Hack, Prompt Security, Ai Prompt Engineering, Adversarial Machine Learning. | Search code, repositories, users, issues, pull requests... | Navigation Menu | CyberAlbSecOP/Awesome_GPT_Super_Prompting: ChatGPT Jailbreaks, GPT Assistants Prompt Leaks, GPTs Prompt Injection, LLM Prompt Security, Super Prompts, Prompt Hack, Prompt Security, Ai Prompt Engineering, Adversarial Machine Learning.](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting)
+
+
+* [Prompt 编写模式：如何将思维框架赋予机器，以设计模式的形式来思考 prompt | Search code, repositories, users, issues, pull requests... | Navigation Menu | phodal/prompt-patterns: Prompt 编写模式：如何将思维框架赋予机器，以设计模式的形式来思考 prompt](https://github.com/phodal/prompt-patterns)
+
+
+* [ | Deep Agents and High-Order Prompts (HOPs): The Next Substrate of AI Reasoning | Data Science Collective | Deep Agents and High-Order Prompts (HOPs): The Next Substrate of AI Reasoning | by Arman Kamran | Data Science Collective | Oct, 2025 | Medium](https://medium.com/data-science-collective/deep-agents-and-high-order-prompts-hops-the-next-substrate-of-ai-reasoning-562c19aa25f6)
+
+
+* [ | Advanced Grok AI Techniques: Beyond Basic Prompts | The Power of Structured Thinking | Advanced Grok AI Techniques: Beyond Basic Prompts](https://grok.md/blog/grok-advanced-beyond)
+
+
+* [ |  | 🚀 Building the future of structured generation | Welcome to Outlines! - Outlines](https://dottxt-ai.github.io/outlines/latest/)
+

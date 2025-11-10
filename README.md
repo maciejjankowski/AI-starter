@@ -14,6 +14,7 @@
 
 **Rezultat**: Raport syntezy z rekomendacją GO/NO-GO/PIVOT oparty na danych, nie na przeczuciach.
 
+-> [Prezentacja ze szczegółami](https://maciejjankowski.com/9SENS/) <-
 ---
 
 ## Dlaczego tego potrzebujesz?

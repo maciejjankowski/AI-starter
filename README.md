@@ -334,6 +334,13 @@ Skontaktuj się w sprawie demo kompletnego systemu 9SENS z:
 #### Przydatne linki:
 
 
+* [ | Shrivu’s Substack | CLAUDE.md | How I Use Every Claude Code Feature - by Shrivu Shankar](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
+
+* [ | Search code, repositories, users, issues, pull requests... | Navigation Menu | SuperPrompt/alternative_prompt.md at main · NeoVertex1/SuperPrompt](https://github.com/NeoVertex1/SuperPrompt/blob/main/alternative_prompt.md)
+
+* [ | Advanced Grok AI Techniques: Beyond Basic Prompts | The Power of Structured Thinking | Advanced Grok AI Techniques: Beyond Basic Prompts](https://grok.md/blog/grok-advanced-beyond)
+
+
 * [Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included! | Search code, repositories, users, issues, pull requests... | Navigation Menu | thinkingjimmy/Learning-Prompt: Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!](https://github.com/thinkingjimmy/Learning-Prompt)
 
 
